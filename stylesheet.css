@@ -1,0 +1,119 @@
+:root{
+  
+  /* Primary Brand Colors */
+  --sage-green: #A8C686;
+  --lavender-purple: #8E6BBE;
+  --dusty-lavender: #C8B6E2;
+  --warm-cream: #FFF8F0;
+
+  /* Accent Colors */
+  --forest-green: #5D8A4A;
+  --soft-purple: #A98BD9;
+
+  /* Backgrounds */
+  --background-main: var(--warm-cream);
+  --background-card: #FFFFFF;
+
+  /* Borders */
+  --border-color: #D8D8D8;
+  --border-btn: #F8D7DA;
+
+  /* Shadows */
+  --shadow-soft: 0 4px 12px rgba(0,0,0,.10);
+  
+  /* Fonts */
+  --font-heading: "Selma", cursive;
+  --font-body: "Nunito", sans-serif; 
+  --font-button: "Nunito", sans-serif;
+  
+  /* Text */
+  --text-dark: #3D3D3D;
+  --text-light: #FFFFFF;
+  
+}
+
+*{
+  
+}
+body{
+  background: var(--background-main);
+  
+  font-family: var(--font-body);
+}
+img{
+  
+}
+header{
+  text-align:center;
+  padding:3rem;
+}
+header h1{
+  font-family: var(--font-heading);
+}
+main{
+
+}
+section{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.payments-top{
+  
+}
+.directions{
+  
+}
+.directions h3{
+  font-family: var(--font-body);
+}
+.logo{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.logo img{
+    margin: 3rem 0 5rem 0;
+    border-radius: 80%;
+    border: 2px solid var(--border-color);
+}
+.logo h2{
+  font-family: var(--font-heading);
+}
+.logo p{
+  
+}
+
+.payments-bottom{
+}
+.payment-btn{
+  box-shadow: var(--shadow-soft);
+  border: 2px solid var(--border-btn);
+  text-decoration: none;
+  font-family: var(--font-button);
+  display:inline-block;
+  padding:.8rem 1.5rem;
+  border-radius:999px;
+  transition:.3s ease;
+}
+.payment-btn:hover{
+  transform: translateY(-5px);
+}
+.credit-card{
+  background: var(--sage-green);
+}
+.cashapp{
+  background: var(--lavender-purple);
+}
+.paypal{
+  background: var(--dusty-lavender);
+}
+.venmo{
+  background: var(--warm-cream);
+}
+footer{
+  border: 2px solid var(--border-btn);
+  text-align: center;
+}
+footer h4{
+  font-family: var(--font-heading);
+}
